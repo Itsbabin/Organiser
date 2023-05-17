@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>5 Div Cards</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+        * {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card {
+	width: 300px;
+	margin: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+	width:100%;
+height: auto;
+}
+
+.card-content {
+padding: 20px;
+}
+
+.card h3 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.card p {
+font-size: 16px;
+color: #777;
+line-height: 1.5;
+}
+
+.card a {
+font-size: 16px;
+color: #777;
+line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+.container {
+flex-direction: column;
+align-items: center;
+}
+.card {
+	width: 80%;
+}
+}
+
+    </style>
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<img src="https://picsum.photos/300/200" alt="Card image">
+			<div class="card-content">
+				<h3>Organiser</h3>
+				<a href="https://drive.google.com/drive/folders/1HFupPww31KRKU6ABuC31FOGz3ycQ9yVq"> get Organiser  </a>
+			</div>
+		</div>
+		<!-- <div class="card">
+			<img src="https://picsum.photos/300/200" alt="Card image">
+			<div class="card-content">
+				<h3>Card 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra justo id ipsum fermentum eleifend. Ut ultrices turpis et mi fermentum, vel sollicitudin odio facilisis. </p>
+			</div>
+		</div>
+		<div class="card">
+			<img src="https://picsum.photos/300/200" alt="Card image">
+			<div class="card-content">
+				<h3>Card 3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra justo id ipsum fermentum eleifend. Ut ultrices turpis et mi fermentum, vel sollicitudin odio facilisis. </p>
+			</div>
+		</div>
+		<div class="card">
+			<img src="https://picsum.photos/300/200" alt="Card image">
+			<div class="card-content">
+				<h3>Card 4</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra justo id ipsum fermentum eleifend. Ut ultrices turpis et mi fermentum, vel sollicitudin odio facilisis. </p>
+			</div>
+		</div>
+		<div class="card">
+			<img src="https://picsum.photos/300/200" alt="Card image">
+			<div class="card-content">
+				<h3>Card 5</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra justo id ipsum fermentum eleifend. Ut ultrices turpis et mi fermentum, vel sollicitudin odio facilisis. </p>
+			</div>
+		</div> -->
+	</div>
+</body>
+</html>
