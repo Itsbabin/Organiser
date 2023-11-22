@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T18:30:33.012Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="t-QKxzLPse6i-BZbhVmb" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-22T13:46:41.672Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="P__9SCOE8Yca-pcsGjSj" version="22.1.3" type="github">
   <diagram name="Page-1" id="z6avR5DVZLPRieBeSbfF">
-    <mxGraphModel dx="1167" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -225,7 +225,7 @@
         <mxCell id="traI9Uk9opV8Vcn1xb9H-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="88.5" y="673" width="158" height="347" as="geometry" />
         </mxCell>
-        <mxCell id="traI9Uk9opV8Vcn1xb9H-2" value="Amount&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; String" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="traI9Uk9opV8Vcn1xb9H-2" value="Amount&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="93.5" y="679" width="146" height="30" as="geometry" />
         </mxCell>
         <mxCell id="traI9Uk9opV8Vcn1xb9H-3" value="Reciver Bank&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Object" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
